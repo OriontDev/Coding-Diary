@@ -21,7 +21,7 @@ int main()
             Ar[i - 1] = Ar[i];
             Ar[i] = Temp;
             i = i - 1;
-            printf("Minus one!\n");
+            printf("Minus one!! :D\n");
         }
 
     }

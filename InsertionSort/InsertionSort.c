@@ -9,11 +9,11 @@ int main()
 
     int ArraySize = sizeof(Ar)/sizeof(Ar[0]);
 
-    printf("%d\n", ArraySize);
+    printf("Array Size = %d\n", ArraySize);
 
     for (int i = 1; i < ArraySize; i++)
     {
-        printf("%d\n", i);
+        printf("Current index checked = %d\n", i);
         while(i > 0 && Ar[i - 1] > Ar[i])
         {
         //3, 5, 6, 9, 3, 100, 90, 20 --this is what it looks like on the first run (3 changes)

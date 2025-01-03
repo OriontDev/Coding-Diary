@@ -11,5 +11,6 @@
   - The basics of `if`, `else`, and `else if` statements in C.
   - How to use logical operators like `&&` (AND) and `||` (OR).
   - The importance of using `==` for equality checks and `!=` for inequality.
+  - The basics of `Switch` statements, and when to use it instead of `if-else`.
 
 

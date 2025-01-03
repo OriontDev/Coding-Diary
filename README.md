@@ -10,3 +10,6 @@ I believe that consistent practice and reflection are key to improving as a prog
 Each folder in this repository contains code for a specific concept or project, along with a detailed `README.md` explaining how the code works. This way, anyone viewing my diary can understand what I’m learning and how I’m applying it.
 
 Feel free to explore the repository and learn alongside me! :3
+
+## Journal Links
+- [January 2025](./C-Language/Journal/January2025.md)

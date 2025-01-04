@@ -20,5 +20,6 @@
 - **Today I learned:** 
   - The basics of function in C.
   - How to make a simple implementation of functions.
+  - The basics of string functions using `<string.h>` and `<ctype.h>` library.
 
 

@@ -16,4 +16,9 @@
   - What each loops does and when to use them.
   - How to generate a random number using `srand` and `rand` from `<time.h>` library.
 
+### January 4, 2025
+- **Today I learned:** 
+  - The basics of function in C.
+  - How to make a simple implementation of functions.
+
 

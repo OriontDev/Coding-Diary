@@ -22,4 +22,9 @@
   - How to make a simple implementation of functions.
   - The basics of string functions using `<string.h>` and `<ctype.h>` library.
 
+### January 5, 2025
+- **Today I learned:** 
+  - The basics of binary search in C.
+  - How binary search works.
+
 

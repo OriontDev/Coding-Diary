@@ -26,5 +26,6 @@
 - **Today I learned:** 
   - The basics of binary search in C.
   - How binary search works.
+  - How to use Struct datatype and assigning value to its variables.
 
 

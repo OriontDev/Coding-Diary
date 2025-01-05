@@ -28,5 +28,6 @@
   - How binary search works.
   - How to use `struct` datatype and assigning value to its variables.
   - Finished my first project, a simple calculator.
+  - The basics of pointers in C.
 
 

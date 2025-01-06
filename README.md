@@ -15,3 +15,6 @@ Feel free to explore the repository and learn alongside me! :3
 ## Journal Links
 ### C LANGUAGE
 - [January 2025](./C-Language/Journal/January2025.md)
+
+### HTML-CSS
+- [January 2025](./HTML-CSS/Journal/January2025.md)

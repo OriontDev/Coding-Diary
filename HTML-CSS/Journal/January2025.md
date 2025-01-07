@@ -11,3 +11,4 @@
   - How to add browser icon in HTML.
   - How to use text formatting in HTML.
   - How to use span and div group in HTML.
+  - How to make lists in HTML.

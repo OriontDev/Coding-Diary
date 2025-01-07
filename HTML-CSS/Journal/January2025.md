@@ -18,3 +18,4 @@
   - How to make lists in HTML.
   - Adding tables into HTML.
   - Adding buttons into HTML.
+  - Making forms in HTML.

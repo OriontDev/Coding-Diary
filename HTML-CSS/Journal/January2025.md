@@ -8,3 +8,4 @@
   - How to add images in HTML.
   - How to add and control audio in HTML.
   - How to add and control video in HTML.
+  - How to add browser icon in HTML.

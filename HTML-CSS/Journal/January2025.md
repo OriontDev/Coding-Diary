@@ -8,7 +8,12 @@
   - How to add images in HTML.
   - How to add and control audio in HTML.
   - How to add and control video in HTML.
+
+## January 2025
+### January 7, 2025
+- **Today I learned:** 
   - How to add browser icon in HTML.
   - How to use text formatting in HTML.
   - How to use span and div group in HTML.
   - How to make lists in HTML.
+  - Adding tables into HTML.

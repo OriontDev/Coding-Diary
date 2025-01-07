@@ -9,3 +9,5 @@
   - How to add and control audio in HTML.
   - How to add and control video in HTML.
   - How to add browser icon in HTML.
+  - How to use text formatting in HTML.
+  - How to use span and div group in HTML.

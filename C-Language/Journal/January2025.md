@@ -30,4 +30,9 @@
   - Finished my first project, a simple calculator.
   - The basics of pointers in C.
 
+### January 7, 2025
+- **Today I learned:** 
+  - The basic of linked list.
+  - The concept of linked list.
+
 

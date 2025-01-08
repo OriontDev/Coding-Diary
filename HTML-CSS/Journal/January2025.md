@@ -9,7 +9,6 @@
   - How to add and control audio in HTML.
   - How to add and control video in HTML.
 
-## January 2025
 ### January 7, 2025
 - **Today I learned:** 
   - How to add browser icon in HTML.
@@ -19,9 +18,12 @@
   - Adding tables into HTML.
   - Adding buttons into HTML.
 
-## January 2025
 ### January 8, 2025
 - **Today I learned:**
   - Making forms in HTML.
   - Organizing HTML with headers and footers.
   - Starting out in CSS.
+
+### January 9, 2025
+- **Today I learned:**
+  - Changing font in CSS

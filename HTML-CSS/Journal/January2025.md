@@ -24,3 +24,4 @@
 - **Today I learned:**
   - Making forms in HTML.
   - Organizing HTML with headers and footers.
+  - Starting out in CSS.

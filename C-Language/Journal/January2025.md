@@ -35,4 +35,8 @@
   - The basic of linked list.
   - The concept of linked list.
 
+### January 8, 2025
+- **Today I learned:** 
+  - Making simple Random Number generator game project in C.S
+
 

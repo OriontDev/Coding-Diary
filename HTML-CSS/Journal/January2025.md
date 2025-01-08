@@ -18,4 +18,9 @@
   - How to make lists in HTML.
   - Adding tables into HTML.
   - Adding buttons into HTML.
+
+## January 2025
+### January 8, 2025
+- **Today I learned:**
   - Making forms in HTML.
+  - Organizing HTML with headers and footers.

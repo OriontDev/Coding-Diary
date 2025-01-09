@@ -27,3 +27,4 @@
 ### January 9, 2025
 - **Today I learned:**
   - Changing font in CSS
+  - Making border in CSS.

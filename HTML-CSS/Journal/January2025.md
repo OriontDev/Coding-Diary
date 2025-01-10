@@ -26,5 +26,9 @@
 
 ### January 9, 2025
 - **Today I learned:**
-  - Changing font in CSS
+  - Changing font in CSS.
   - Making border in CSS.
+
+### January 10, 2025
+- **Today I learned:**
+  - How to make a box in HTML.

@@ -39,4 +39,9 @@
 - **Today I learned:** 
   - Making simple Random Number generator game project in C.S
 
+### January 8, 2025
+- **Today I learned:** 
+  - Making a simple To-Do list project in C.
+  - how to implement string array into a project.
+
 

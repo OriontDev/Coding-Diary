@@ -39,3 +39,4 @@
   - How to center a div with margin.
   - Making a basic lyric website project.
   - How to change the website background.
+  - How to use Float in CSS.

@@ -1,0 +1,53 @@
+body{
+    margin: auto;
+    background-image: url('Images/wallpaper2.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    margin-bottom: 0px;
+    margin: auto;
+    text-shadow: 2px 2px 3px red;
+
+    
+}
+h3{
+    margin-top: 0px;
+    margin: auto;
+}
+.box{
+    background-color: rgba(9, 19, 99, 0.8);
+    border: 5px solid;
+    border-radius: 20px;
+    width: 450px;
+    height: 60px;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+    border-color: rgb(180, 0, 0);
+}
+
+#text{
+    color: aliceblue;
+}
+p{
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    border: 5px solid rgb(144, 2, 2);
+    border-radius: 20px;
+    width: 400px;
+    color: rgb(181, 219, 250);
+    text-shadow: 1px 1px 2px rgb(142, 0, 0), -1px -1px 3px black;
+    background-color: rgba(9, 19, 99, 0.8);
+}
+audio {
+    display: block; /* Makes the audio element a block element */
+    margin: 10px auto; /* Centers the audio player */
+}
+#flag{
+    display: block;
+    margin: auto;
+    border: 5px solid rgb(144, 0, 0);
+    border-radius: 20px;
+}

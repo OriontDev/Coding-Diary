@@ -57,4 +57,24 @@ audio {
 #flag:hover {
     transform: scale(1.1);
 }
-  
+#treaty{
+    display: block;
+    margin: auto;
+    border: 5px solid rgb(144, 0, 0);
+    border-radius: 20px;
+}
+.boxbottom{
+    background-color: rgba(9, 19, 99, 0.8);
+    border: 5px solid;
+    border-radius: 20px;
+    width: auto;
+    height: 50px;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 25px;
+    border-color: rgb(180, 0, 0);
+}
+a{
+    color: inherit;
+}

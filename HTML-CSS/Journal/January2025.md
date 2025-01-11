@@ -32,3 +32,8 @@
 ### January 10, 2025
 - **Today I learned:**
   - How to make a box in HTML.
+
+### January 11, 2025
+- **Today I learned:**
+  - The basic of margins in HTML.
+  - How to center a div with margin.

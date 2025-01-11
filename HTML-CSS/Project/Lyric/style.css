@@ -3,6 +3,7 @@ body{
     background-image: url('Images/wallpaper2.jpeg');
     background-size: cover;
     background-position: center;
+    height: 100vh;
 }
 h1{
     margin-bottom: 0px;
@@ -34,6 +35,7 @@ p{
     font-size: 20px;
     margin: auto;
     text-align: center;
+    padding: 10px;
     border: 5px solid rgb(144, 2, 2);
     border-radius: 20px;
     width: 400px;
@@ -49,5 +51,10 @@ audio {
     display: block;
     margin: auto;
     border: 5px solid rgb(144, 0, 0);
+    transition: transform 0.2s ease;
     border-radius: 20px;
 }
+#flag:hover {
+    transform: scale(1.1);
+}
+  

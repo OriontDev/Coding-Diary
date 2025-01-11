@@ -41,3 +41,4 @@
   - How to change the website background.
   - How to use Float in CSS.
   - How to use overflow in CSS.
+  - How to set display in CSS.

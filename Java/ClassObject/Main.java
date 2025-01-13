@@ -5,6 +5,7 @@ abstract class BangunDatar {
     abstract double keliling();
 }
 class Persegi extends BangunDatar{
+
     private double sisi;
 
     public Persegi(double sisi){
@@ -20,25 +21,57 @@ class Persegi extends BangunDatar{
     }
 
     @Override
-    double luas(){
-        return sisi*sisi;
-    }
-
-    @Override
     double keliling(){
         return sisi*4;
     }
 
+    @Override
+    double luas(){
+        return sisi*sisi;
+    }
+
+
+}
+class Lingkaran extends BangunDatar{
+    private double radius;
+
+    public Lingkaran(double radius){
+        this.radius = radius;
+    }
+
+    public double getRadius(){
+        return radius;
+    }
+
+    public void setRadius(double radius){
+        this.radius = radius;
+    }
+
+    @Override
+    double luas() {
+        return Math.PI * radius * radius;  
+    }
+
+    @Override
+    double keliling() {
+        return 2 * Math.PI * radius;  
+    }
 }
 
 public class Main {
     public static void main(String[] args) {
 
+        Lingkaran myLingkaran = new Lingkaran(4.0);
         Persegi myPersegi = new Persegi(2.0);
         System.out.println("Kelilin persegi adalah : "+myPersegi.keliling());
         System.out.println("Luas persegi adalah : "+myPersegi.luas());
+        System.out.printf("Keliling lingkaran adalah : %.2f\n", myLingkaran.keliling());
+        System.out.printf("Luas lingkaran adalah : %.2f\n", myLingkaran.luas());
         myPersegi.setSisi(10.5);
+        myLingkaran.setRadius(11.0);
         System.out.println("Kelilin persegi adalah : "+myPersegi.keliling());
         System.out.println("Luas persegi adalah : "+myPersegi.luas());
+        System.out.printf("Keliling lingkaran adalah : %.2f\n", myLingkaran.keliling());
+        System.out.printf("Luas lingkaran adalah : %.2f", myLingkaran.luas());
     }
 }

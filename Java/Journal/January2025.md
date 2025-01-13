@@ -18,3 +18,8 @@
   - Generating random number.
   - Making Hypotenuse calculator project.
   - about if-statement.
+
+### January 13, 2025
+- **Today I learned:** 
+  - Basic of OOP in java.
+  - Classes and object in java.

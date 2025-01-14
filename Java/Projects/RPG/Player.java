@@ -26,4 +26,10 @@ public class Player{
     private void handleDeath(){
         System.out.println("Bros dead");
     }
+
+    public void displayStat(){
+        System.out.println("=============STATS=============");
+        System.out.println("Health : "+this.getHealth());
+        System.out.println("Mana : "+this.getMana());
+    }
 }

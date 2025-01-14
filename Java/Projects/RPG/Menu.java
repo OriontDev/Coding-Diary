@@ -9,6 +9,13 @@ public class Menu{
     private Location currLocation;
     private int state;
 
+    public void setLocation(int location){
+        switch(location){
+            case 0 -> this.currLocation = new ElderwoodV(this);
+            case 1 -> this.currLocation = new EWwork(this);
+        }
+    }
+
     public Menu(int state){
         this.state = state;
         this.scanner = new Scanner(System.in);
@@ -16,7 +23,7 @@ public class Menu{
 
     private void init() { // Load save
         this.player = new Player(100, 100); //creating player
-        this.currLocation = new ElderwoodV(); //creating first location
+        setLocation(0); //creating first location
         setMenuState(1);
     }
 
@@ -53,18 +60,19 @@ public class Menu{
     }
 
     private void DisplayMainMenu(){
-        System.out.println("Login Succsessful!");
 
         // System.out.println("Hello Player, Health = "+player.getHealth()+", Mana = "+player.getMana());
         // System.out.println("Would you like to kill yourself? ");
 
+
         this.currLocation.displayDesc();
+        this.player.displayStat(); 
+        System.out.println("=============OPTIONS=============");
         this.currLocation.displayOption();
 
         System.out.print("Selection option :");
 
         int choice = this.scanner.nextInt();
-        int menuChange = -999;
 
         this.currLocation.processOption(choice);
 
@@ -74,14 +82,10 @@ public class Menu{
         //     // default -> DisplayMainMenu();
         //     // default -> System.out.println("k");
         // }
-        System.out.println("Hello Player, Health = "+player.getHealth()+", Mana = "+player.getMana());
-        handleMenuChange(menuChange);
+        // System.out.println("Hello Player, Health = "+player.getHealth()+", Mana = "+player.getMana());
+        setMenuState(1);
     }
 
-    private void handleMenuChange(int state) {
-        if (state == -999) return;
-        setMenuState(state);
-    }
 
     private void handleExit(){
         this.state = -1;

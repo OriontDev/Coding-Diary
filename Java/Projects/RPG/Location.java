@@ -7,8 +7,10 @@ abstract class Location{
 class ElderwoodV extends Location{
 
     private final Menu menu;
-    public ElderwoodV(Menu menu) {
+    private Player player;
+    public ElderwoodV(Menu menu, Player player) {
         this.menu = menu;
+        this.player = player;
     }
     
 
@@ -39,8 +41,10 @@ class ElderwoodV extends Location{
 class EWwork extends Location{
 
     private final Menu menu;
-    public EWwork(Menu menu) {
+    private Player player;
+    public EWwork(Menu menu, Player player) {
         this.menu = menu;
+        this.player = player;
     }
     
     @Override
@@ -59,7 +63,38 @@ class EWwork extends Location{
     @Override
     void processOption(int choice) {
         switch(choice){
+            case 1 -> menu.setLocation(2);
             case 3 -> menu.setLocation(0);
+        }
+    }
+
+}
+
+class EWmines extends Location{
+
+    private final Menu menu;
+    private Player player;
+    public EWmines(Menu menu, Player player) {
+        this.menu = menu;
+        this.player = player;
+    }
+    
+    @Override
+    void displayDesc() {
+        player.addStats(null, null, 100);
+        System.out.println("========ElderWood Mines========");
+        System.out.println("You worked at ElderWood Mines and gained..");
+    }
+
+    @Override
+    void displayOption() {
+        System.out.println("1. Go back");
+    }
+    
+    @Override
+    void processOption(int choice) {
+        switch(choice){
+            case 1 -> menu.setLocation(0);
         }
     }
 

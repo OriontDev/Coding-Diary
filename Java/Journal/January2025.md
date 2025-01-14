@@ -23,3 +23,7 @@
 - **Today I learned:** 
   - Basic of OOP in java.
   - Classes and object in java.
+
+### January 14, 2025
+- **Today I learned:** 
+  - Starting my text based RPG game project.

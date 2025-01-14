@@ -1,17 +1,42 @@
 public class Player{
     private int health;
     private int mana;
+    private int coins;
 
-    public Player(int health, int mana){
+    public Player(int health, int mana, int coins){
         this.health = health;
         this.mana = mana;
+        this.coins = coins;
+
     }
 
-    public void setStats(int health, int mana){
-        this.health = health;
-        this.mana = mana;
-        if(this.health <= 0){
-            handleDeath();
+    public void setStats(Integer health, Integer mana, Integer coins){
+        if (health != null) {
+            this.health = health;
+            if (this.health <= 0) {
+                handleDeath();
+            }
+        }
+        if (mana != null) {
+            this.mana = mana;
+        }
+        if (coins != null) {
+            this.coins = coins;
+        }
+    }
+
+    public void addStats(Integer health, Integer mana, Integer coins){
+        if (health != null) {
+            this.health += health;
+            if (this.health <= 0) {
+                handleDeath();
+            }
+        }
+        if (mana != null) {
+            this.mana += mana;
+        }
+        if (coins != null) {
+            this.coins += coins;
         }
     }
 
@@ -23,6 +48,10 @@ public class Player{
         return this.mana;
     }
 
+    public int getCoins(){
+        return this.coins;
+    }
+
     private void handleDeath(){
         System.out.println("Bros dead");
     }
@@ -31,5 +60,6 @@ public class Player{
         System.out.println("=============STATS=============");
         System.out.println("Health : "+this.getHealth());
         System.out.println("Mana : "+this.getMana());
+        System.out.println("Coins : "+this.getCoins());
     }
 }

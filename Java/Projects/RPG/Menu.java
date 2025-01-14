@@ -11,8 +11,9 @@ public class Menu{
 
     public void setLocation(int location){
         switch(location){
-            case 0 -> this.currLocation = new ElderwoodV(this);
-            case 1 -> this.currLocation = new EWwork(this);
+            case 0 -> this.currLocation = new ElderwoodV(this, player);
+            case 1 -> this.currLocation = new EWwork(this, player);
+            case 2 -> this.currLocation = new EWmines(this, player);
         }
     }
 
@@ -22,7 +23,7 @@ public class Menu{
     }
 
     private void init() { // Load save
-        this.player = new Player(100, 100); //creating player
+        this.player = new Player(100, 100, 0); //creating player
         setLocation(0); //creating first location
         setMenuState(1);
     }

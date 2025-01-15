@@ -1,3 +1,5 @@
+import java.util.Random;
+
 abstract class Location{
     abstract void displayDesc();
     abstract void displayOption();
@@ -7,10 +9,12 @@ abstract class Location{
 class ElderwoodV extends Location{
 
     private final Menu menu;
-    private Player player;
-    public ElderwoodV(Menu menu, Player player) {
+    private final Player player;
+    private final Random random;
+    public ElderwoodV(Menu menu, Player player, Random random) {
         this.menu = menu;
         this.player = player;
+        this.random = random;
     }
     
 
@@ -41,10 +45,12 @@ class ElderwoodV extends Location{
 class EWwork extends Location{
 
     private final Menu menu;
-    private Player player;
-    public EWwork(Menu menu, Player player) {
+    private final Player player;
+    private final Random random;
+    public EWwork(Menu menu, Player player, Random random) {
         this.menu = menu;
         this.player = player;
+        this.random = random;
     }
     
     @Override
@@ -73,15 +79,18 @@ class EWwork extends Location{
 class EWmines extends Location{
 
     private final Menu menu;
-    private Player player;
-    public EWmines(Menu menu, Player player) {
+    private final Player player;
+    private final Random random;
+    public EWmines(Menu menu, Player player, Random random) {
         this.menu = menu;
         this.player = player;
+        this.random = random;
     }
     
     @Override
     void displayDesc() {
-        player.addStats(null, null, 100);
+        int salary = random.nextInt(50) + 1;
+        player.addStats(null, null, salary);
         System.out.println("========ElderWood Mines========");
         System.out.println("You worked at ElderWood Mines and gained..");
     }

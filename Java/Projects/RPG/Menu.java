@@ -1,4 +1,5 @@
 
+import java.util.Random;
 import java.util.Scanner;
 
 
@@ -8,18 +9,20 @@ public class Menu{
     private Player player;
     private Location currLocation;
     private int state;
+    private final Random random;
 
     public void setLocation(int location){
         switch(location){
-            case 0 -> this.currLocation = new ElderwoodV(this, player);
-            case 1 -> this.currLocation = new EWwork(this, player);
-            case 2 -> this.currLocation = new EWmines(this, player);
+            case 0 -> this.currLocation = new ElderwoodV(this, player, random);
+            case 1 -> this.currLocation = new EWwork(this, player, random);
+            case 2 -> this.currLocation = new EWmines(this, player, random);
         }
     }
 
     public Menu(int state){
         this.state = state;
         this.scanner = new Scanner(System.in);
+        this.random = new Random();
     }
 
     private void init() { // Load save

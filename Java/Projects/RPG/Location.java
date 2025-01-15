@@ -92,7 +92,7 @@ class EWmines extends Location{
         int salary = random.nextInt(50) + 1;
         player.addStats(null, null, salary);
         System.out.println("========ElderWood Mines========");
-        System.out.println("You worked at ElderWood Mines and gained..");
+        System.out.println("You worked at ElderWood Mines and gained "+salary+" coins!.");
     }
 
     @Override

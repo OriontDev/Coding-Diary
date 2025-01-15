@@ -27,3 +27,7 @@
 ### January 14, 2025
 - **Today I learned:** 
   - Starting my text based RPG game project.
+
+### January 15, 2025
+- **Today I learned:** 
+  - Updateing my text based RPG project

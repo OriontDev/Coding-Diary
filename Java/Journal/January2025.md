@@ -30,4 +30,8 @@
 
 ### January 15, 2025
 - **Today I learned:** 
-  - Updateing my text based RPG project
+  - Updating my text based RPG project.
+
+### January 15, 2025
+- **Today I learned:** 
+  - Basic implementation of OOP.

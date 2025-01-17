@@ -34,4 +34,10 @@
 
 ### January 15, 2025
 - **Today I learned:** 
-  - Basic implementation of OOP.
+  - Practicing class and object
+
+### January 15, 2025
+- **Today I learned:** 
+  - About constructor.
+  - About overload constructor.
+  - About Array of object.

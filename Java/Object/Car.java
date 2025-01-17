@@ -6,11 +6,11 @@ public class Car{
     boolean IsRunning = false;
     String brand = "Ford";
 
-    void StartEnegine(){
+    void startEngine(){
         IsRunning = true;
         System.out.println("Engine started :3");
     }
-    void StopEnegine(){
+    void stopEngine(){
         IsRunning = false;
         System.out.println("Engine stopped :3");
     }

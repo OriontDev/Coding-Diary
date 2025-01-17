@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class main{
+public class Main{
     public static void main(String[] args) {
         int option;
         Car car = new Car();
@@ -19,10 +19,10 @@ public class main{
             option = scanner.nextInt();
 
             switch(option){
-                case 1 -> car.StartEnegine();
-                case 2 -> car.StopEnegine();
+                case 1 -> car.startEngine();
+                case 2 -> car.stopEngine();
                 case 3 -> car.Drive();
-                case 4 -> System.out.println("exit");
+                case 4 -> {return;}
                 default -> System.out.println("Bruh");
             }
         } while (option != 4);

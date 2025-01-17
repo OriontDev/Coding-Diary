@@ -8,17 +8,17 @@ public class Car{
 
     void StartEnegine(){
         IsRunning = true;
-        System.out.println("Enegine started :3");
+        System.out.println("Engine started :3");
     }
     void StopEnegine(){
         IsRunning = false;
-        System.out.println("Enegine stopped :3");
+        System.out.println("Engine stopped :3");
     }
     void Drive(){
         if (IsRunning){
             System.out.println("Vrooooom");
         } else{
-            System.out.println("Start the enegine first :(");
+            System.out.println("Start the engine first :(");
         }
     }
 }

@@ -41,3 +41,7 @@
   - About constructor.
   - About overload constructor.
   - About Array of object.
+
+### January 18, 2025
+- **Today I learned:** 
+  - About static variable/method.

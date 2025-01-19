@@ -45,3 +45,7 @@
 ### January 18, 2025
 - **Today I learned:** 
   - About static variable/method.
+
+### January 19, 2025
+- **Today I learned:** 
+  - About Inheritance.

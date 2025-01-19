@@ -49,3 +49,7 @@
 ### January 19, 2025
 - **Today I learned:** 
   - About Inheritance.
+
+### January 20, 2025
+- **Today I learned:** 
+  - About Super.

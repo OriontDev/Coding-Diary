@@ -53,3 +53,8 @@
 ### January 20, 2025
 - **Today I learned:** 
   - About Super.
+
+### January 21, 2025
+- **Today I learned:** 
+  - Using ToString.
+  - About interfaces.

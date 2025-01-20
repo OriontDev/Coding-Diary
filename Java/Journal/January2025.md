@@ -58,3 +58,5 @@
 - **Today I learned:** 
   - Using ToString.
   - About interfaces.
+  - About PolyMorphism.
+  - About Runtime PolyMorphism.

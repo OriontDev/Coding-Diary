@@ -60,3 +60,7 @@
   - About interfaces.
   - About PolyMorphism.
   - About Runtime PolyMorphism.
+
+### January 21, 2025
+- **Today I learned:** 
+  - About Aggregation.

@@ -68,4 +68,5 @@
 
 ### January 23, 2025
 - **Today I learned:** 
-  - About ArrayList and all its command
+  - About ArrayList and all its command.
+  - About Exception(Try, Catch, Finally).

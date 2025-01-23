@@ -61,7 +61,11 @@
   - About PolyMorphism.
   - About Runtime PolyMorphism.
 
-### January 21, 2025
+### January 22, 2025
 - **Today I learned:** 
   - About Aggregation.
   - About Composition.
+
+### January 23, 2025
+- **Today I learned:** 
+  - About ArrayList and all its command

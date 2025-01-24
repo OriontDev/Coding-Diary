@@ -74,3 +74,6 @@
 ### January 24, 2025
 - **Today I learned:** 
   - how to make calculator in Java.
+  - How to write files in Java.
+  - How to read files in Java.
+  - Making a music player in java.

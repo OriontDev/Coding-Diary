@@ -47,4 +47,7 @@
 - **Today I learned:**
   - Making several projects.
 
+### January 24, 2025
+- **Today I learned:**
+  - About Media Query in CSS.
 

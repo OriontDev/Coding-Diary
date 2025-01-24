@@ -50,10 +50,10 @@ public class Main{
             System.out.println("File format not supported!");
         }
         catch(LineUnavailableException e){
-            System.out.println("Line unavailable!");
+            System.out.println("Unable to access audio resource!");
         }
         catch(FileNotFoundException e){
-            System.out.println("Cannot find file");
+            System.out.println("Cannot not locate file");
         }
         catch(IOException e) {
             System.out.println("Something went wrong.");

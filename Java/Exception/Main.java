@@ -14,7 +14,7 @@ public class Main{
             System.out.println("CANT DIVIDE BY ZERO!!1!");
         }
         catch(InputMismatchException e){
-            System.out.println("Go back to school dyslexic nigga");
+            System.out.println("Go back to school dyslexic ahh");
         }
         finally{
             scanner.close();

@@ -156,7 +156,7 @@ body{
 
 #copy{
     padding-bottom: 200px;
-    padding-left: 500px;
+    right: 50px;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: -2px 2px 1px rgb(139, 139, 139);
@@ -175,4 +175,39 @@ body{
     border-top: 6px solid rgb(24, 111, 193);
 }
 
+@media screen and (max-width: 800px) {
+    #topnama{
+        padding-left: 150px;
+        color: white;
+        font-size: 35px;
+        text-shadow: 2px 2px 2px rgb(0, 44, 176);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #copy{
+        padding-bottom: 200px;
+        right: 50px;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-shadow: -2px 2px 1px rgb(139, 139, 139);
+        font-size: 20px;
+    }
+    #icontext{
+        padding-bottom: 50px;
+        padding-left: 220px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-shadow: -2px 2px 1px rgb(139, 139, 139);
+        font-size: 30px;
+    }
+    #icondown{
+        z-index: 1000;
+        position: absolute;
+        padding-left: 15px;
+        width: 150px;
+    }
+    #aboutme{
+        transition: transform 0.2s ease;
+        width: 300px;
+    }
+}
 

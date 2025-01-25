@@ -51,3 +51,8 @@
 - **Today I learned:**
   - About Media Query in CSS.
 
+### January 24, 2025
+- **Today I learned:**
+  - Making website background in CSS.
+  - Updated DPK profile project.
+

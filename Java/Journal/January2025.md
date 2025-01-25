@@ -77,3 +77,8 @@
   - How to write files in Java.
   - How to read files in Java.
   - Making a music player in java.
+
+### January 25, 2025
+- **Today I learned:** 
+  - how to make hangman game in Java.
+  - implementing Random, scanner, filereading, static in hangman.

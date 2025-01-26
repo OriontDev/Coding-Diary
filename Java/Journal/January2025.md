@@ -86,3 +86,4 @@
 ### January 26, 2025
 - **Today I learned:** 
   - How to get local DateTime and how to format them.
+  - about anonymous class.

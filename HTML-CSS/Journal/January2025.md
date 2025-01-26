@@ -56,3 +56,7 @@
   - Making website background in CSS.
   - Updated DPK profile project.
 
+### January 26, 2025
+- **Today I learned:**
+  - Updated DPK profile project.
+

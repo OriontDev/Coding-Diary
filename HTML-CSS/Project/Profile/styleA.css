@@ -123,6 +123,20 @@ body{
     margin-bottom: 5px;
 }
 
+#gamepic{
+    width: 450px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: solid rgb(24, 111, 193) 6px;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+#gamepic:hover{
+    transform: scale(1.05);
+}
 
 #icontext{
     padding-bottom: 50px;

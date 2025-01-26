@@ -82,3 +82,7 @@
 - **Today I learned:** 
   - how to make hangman game in Java.
   - implementing Random, scanner, filereading, static in hangman.
+
+### January 26, 2025
+- **Today I learned:** 
+  - How to get local DateTime and how to format them.

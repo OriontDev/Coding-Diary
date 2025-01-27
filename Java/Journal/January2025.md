@@ -87,3 +87,8 @@
 - **Today I learned:** 
   - How to get local DateTime and how to format them.
   - about anonymous class.
+
+### January 27, 2025
+- **Today I learned:** 
+  - To use Timer and TimerTask.
+  - Implementing Timer and timertask in Countdown project.

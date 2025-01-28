@@ -92,3 +92,7 @@
 - **Today I learned:** 
   - To use Timer and TimerTask.
   - Implementing Timer and timertask in Countdown project.
+
+### January 27, 2025
+- **Today I learned:** 
+  - About Generics

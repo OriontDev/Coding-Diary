@@ -96,3 +96,7 @@
 ### January 27, 2025
 - **Today I learned:** 
   - About Generics
+
+### January 28, 2025
+- **Today I learned:** 
+  - About HashMap

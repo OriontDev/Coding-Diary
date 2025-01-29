@@ -16,7 +16,7 @@
   - Basics of GUI (graphical user interface) in JAVA.
   - Math class in JAVA.
   - Generating random number.
-  - Making Hypotenuse calculator project.
+  - To make Hypotenuse calculator project.
   - about if-statement.
 
 ### January 13, 2025
@@ -104,3 +104,7 @@
 ### January 29, 2025
 - **Today I learned:** 
   - About HashSet
+
+### January 30, 2025
+- **Today I learned:** 
+  - How to create multiple threads.

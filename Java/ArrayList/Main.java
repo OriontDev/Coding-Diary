@@ -7,6 +7,7 @@ public class Main{
         ArrayList<String> foods = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
 
+
         System.out.print("Insert # of foods : ");
         int numOfFood = scanner.nextInt();
         scanner.nextLine();
@@ -16,6 +17,8 @@ public class Main{
             String food = scanner.nextLine();
             foods.add(food);
         }
+
+        
 
         System.out.println(foods);
         //foods.remove(index);

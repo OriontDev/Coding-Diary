@@ -108,3 +108,7 @@
 ### January 30, 2025
 - **Today I learned:** 
   - How to create multiple threads.
+
+### January 30, 2025
+- **Today I learned:** 
+  - About string methods.

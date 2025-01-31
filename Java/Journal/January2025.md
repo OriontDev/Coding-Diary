@@ -112,3 +112,4 @@
 ### January 30, 2025
 - **Today I learned:** 
   - About string methods.
+  - About StringBuilder class.

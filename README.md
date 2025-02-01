@@ -18,6 +18,7 @@ Feel free to explore the repository and learn alongside me! :3
 
 ### HTML-CSS
 - [January 2025](./HTML-CSS/Journal/January2025.md)
+- [February 2025](./HTML-CSS/Journal/February2025.md)
 
 ### JAVA
 - [January 2025](./Java/Journal/January2025.md)

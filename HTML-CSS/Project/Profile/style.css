@@ -163,6 +163,16 @@ body{
     border-top: 6px solid rgb(24, 111, 193);
 }
 
+.text::selection{
+    color: rgb(180, 215, 255);
+    background-color: rgb(0, 15, 153);
+}
+
+.text2::selection{
+    color: rgb(180, 215, 255);
+    background-color: rgb(0, 15, 153);
+}
+
 @media screen and (max-width: 800px) {
     #topnama{
         padding-left: 150px;

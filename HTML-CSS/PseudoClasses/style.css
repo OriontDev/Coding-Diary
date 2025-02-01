@@ -1,0 +1,29 @@
+li:hover{
+    background-color: rgb(255, 255, 147);
+}
+li:not(:hover){
+    background-color: grey;
+}
+
+/*
+li:nth-child(3){
+    background-color: grey;
+}
+
+means the third element inside
+*/
+
+a:link{
+    color: rgb(255, 65, 65);
+}
+a:hover{
+    color: rgb(255, 130, 130);
+    font-size: 1.1em;
+}
+a:active{
+    color: rgb(255, 0, 0);
+    font-size: 1.1em;
+}
+a:visited{
+    color: rgb(114, 15, 15);
+}

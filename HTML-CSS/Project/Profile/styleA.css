@@ -133,8 +133,22 @@ body{
     border-radius: 10px;
     transition: transform 0.2s ease;
 }
+#gamepic2{
+    width: 450px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: solid rgb(24, 111, 193) 6px;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
 
 #gamepic:hover{
+    transform: scale(1.05);
+}
+#gamepic2:hover{
     transform: scale(1.05);
 }
 
@@ -235,6 +249,16 @@ body{
         width: 300px;
     }
     #gamepic{
+        width: 320px;
+        margin-top: 10px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 20px;
+        border: solid rgb(24, 111, 193) 6px;
+        border-radius: 10px;
+        transition: transform 0.2s ease;
+    }
+    #gamepic2{
         width: 320px;
         margin-top: 10px;
         float: left;

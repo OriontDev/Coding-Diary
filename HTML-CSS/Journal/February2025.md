@@ -6,3 +6,4 @@
   - About Pseudo-Class.
   - About Pseudo-Elements.
   - How to implement it in my profile project.
+  - About javaScript functions.

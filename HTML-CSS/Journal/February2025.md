@@ -11,3 +11,5 @@
 ### February 3, 2025
 - **Today I learned:** 
   - About Pagination.
+  - How to make dropdown menu.
+  - How to make navigations bar.

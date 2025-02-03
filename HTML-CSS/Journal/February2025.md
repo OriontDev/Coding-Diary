@@ -13,3 +13,4 @@
   - About Pagination.
   - How to make dropdown menu.
   - How to make navigations bar.
+  - About Layouting (Header, nav, main, aside, section, article, footer).

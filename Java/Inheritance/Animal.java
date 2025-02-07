@@ -1,7 +1,7 @@
 public class Animal extends Organism{
 
     void Eat(){
-        System.err.println("Animal is eating..");
+        System.out.println("Animal is eating..");
     }
 
 }

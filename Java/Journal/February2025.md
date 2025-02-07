@@ -13,3 +13,4 @@
 ### February 7, 2025
 - **Today I learned:** 
   - How to make a contact book in java.
+  - How to do binary search in Java.

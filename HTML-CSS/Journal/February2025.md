@@ -14,3 +14,7 @@
   - How to make dropdown menu.
   - How to make navigations bar.
   - About Layouting (Header, nav, main, aside, section, article, footer).
+
+### February 7, 2025
+- **Today I learned:**
+  - Adding icon from fontawesome.

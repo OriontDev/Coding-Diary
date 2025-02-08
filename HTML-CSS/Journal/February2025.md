@@ -18,3 +18,7 @@
 ### February 7, 2025
 - **Today I learned:**
   - Adding icon from fontawesome.
+
+### February 8, 2025
+- **Today I learned:**
+  - How to use flexbox

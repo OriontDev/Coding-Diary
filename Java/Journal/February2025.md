@@ -14,3 +14,7 @@
 - **Today I learned:** 
   - How to make a contact book in java.
   - How to do binary search in Java.
+
+### February 9, 2025
+- **Today I learned:** 
+  - Making basic student list with arraylist!

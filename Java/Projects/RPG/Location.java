@@ -89,10 +89,17 @@ class EWmines extends Location{
     
     @Override
     void displayDesc() {
-        int salary = random.nextInt(50) + 1;
-        player.addStats(null, null, salary);
-        System.out.println("========ElderWood Mines========");
-        System.out.println("You worked at ElderWood Mines and gained "+salary+" coins!.");
+        if(player.getMana() <= 20){
+            System.out.println("========ElderWood Mines========");
+            System.out.println("You are too fatigued to mine!");
+        }else{
+            int salary = random.nextInt(50) + 1;
+            player.minusStats(null, 15, null); //minus 15 mana
+            player.addStats(null, null, salary);
+            System.out.println("========ElderWood Mines========");
+            System.out.println("You worked at ElderWood Mines and gained "+salary+" coins!.");
+        }
+
     }
 
     @Override

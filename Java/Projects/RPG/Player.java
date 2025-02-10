@@ -40,6 +40,21 @@ public class Player{
         }
     }
 
+    public void minusStats(Integer health, Integer mana, Integer coins){
+        if (health != null) {
+            this.health -= health;
+            if (this.health <= 0) {
+                handleDeath();
+            }
+        }
+        if (mana != null) {
+            this.mana -= mana;
+        }
+        if (coins != null) {
+            this.coins -= coins;
+        }
+    }
+
     public int getHealth(){
         return this.health;
     }

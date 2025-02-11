@@ -3,5 +3,5 @@ function changeImage() {
 }
 
 function restoreImage() {
-    document.getElementById("gamepic2").src = "Asset/Images3.png";
+    document.getElementById("gamepic2").src = "Asset/Image4.png";
 }

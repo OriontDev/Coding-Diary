@@ -61,6 +61,41 @@
     right: 0;
 }
 
+.listskill{
+    width: 400px;
+    border: solid rgb(24, 111, 193) 4px;
+    background-color: rgba(0, 171, 251, 0.679);
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px rgb(1, 98, 168);
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    
+}
+
+#skillexplain{
+    width: 400px;
+    margin-left: 20px;
+}
+
+ul li{
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+ul li::marker{
+    content: "📖";
+    color: rgb(0, 59, 187);
+    font-size: 1.1em;
+}
+
+ul li:hover{
+    background-color: rgb(134, 208, 239);
+}
+ul li:not(:hover){
+    background-color: none;
+}
+
+
 #topnama{
     padding-left: 150px;
     color: white;

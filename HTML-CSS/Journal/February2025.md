@@ -22,3 +22,11 @@
 ### February 8, 2025
 - **Today I learned:**
   - How to use flexbox
+
+### February 9, 2025
+- **Today I learned:**
+  - Updated profile website
+
+### February 12, 2025
+- **Today I learned:**
+  - to make a birthday website and hosted it on github.

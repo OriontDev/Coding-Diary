@@ -22,3 +22,4 @@
 ### February 14, 2025
 - **Today I learned:** 
   - Making a rock paper scissor game
+  - Learn about LinkedList in java.

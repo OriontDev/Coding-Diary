@@ -20,6 +20,7 @@ public class Main{
             for(Student s : students){
                 s.showInfo();
             }
+            System.out.printf("\nTotal student = %d\n", Student.totalStudent());
             System.out.println("===============================");
             System.out.println("1. Add new student");
             System.out.println("2. Edit student data");

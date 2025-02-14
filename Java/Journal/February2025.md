@@ -18,3 +18,7 @@
 ### February 9, 2025
 - **Today I learned:** 
   - Making basic student list with arraylist!
+
+### February 14, 2025
+- **Today I learned:** 
+  - Making a rock paper scissor game

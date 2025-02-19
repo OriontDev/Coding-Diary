@@ -1,0 +1,17 @@
+#countText{
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.button-container{
+    text-align: center;
+}
+.button-container button{
+    margin: 5px;
+    background-color: hsl(203, 74%, 51%);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}

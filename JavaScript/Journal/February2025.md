@@ -8,9 +8,13 @@
 
 ### ===TOOK A SICK BREAK===
 
-## February 2025
 ### February 19, 2025
 - **Today I learned:** 
   - about const variable
   - making basic counter website
   - converting variables.
+
+### February 20, 2025
+- **Today I learned:** 
+  - about making random value
+  - about checkbox

@@ -25,3 +25,4 @@
   - String methods
   - String slicing
   - Switch case
+  - About strict operator

@@ -18,3 +18,10 @@
 - **Today I learned:** 
   - about making random value
   - about checkbox
+
+### February 21, 2025
+- **Today I learned:** 
+  - Ternary
+  - String methods
+  - String slicing
+  - Switch case

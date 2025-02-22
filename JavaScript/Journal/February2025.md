@@ -26,3 +26,8 @@
   - String slicing
   - Switch case
   - About strict operator
+
+### February 22, 2025
+- **Today I learned:** 
+  - About while and for loop
+  - Making temperature converter project

@@ -1,0 +1,22 @@
+#container{
+    text-align: center;
+}
+
+#numOfDice{
+    width: 150px;
+    text-align: center;
+}
+button{
+    background-color: hsl(221, 96%, 65%);
+    border-radius: 5px;
+    color: white;
+}
+
+#diceResult{
+    margin: 25px;
+}
+
+#diceImages img{
+    width: 150px;
+    margin: 10px;
+}

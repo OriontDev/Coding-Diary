@@ -31,3 +31,9 @@
 - **Today I learned:** 
   - About while and for loop
   - Making temperature converter project
+
+### February 23, 2025
+- **Today I learned:** 
+  - About array in javascript
+  - About spread operator and rest parameters
+  - How to make a roller dice program

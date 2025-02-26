@@ -37,3 +37,7 @@
   - About array in javascript
   - About spread operator and rest parameters
   - How to make a roller dice program
+
+### February 27, 2025
+- **Today I learned:** 
+  - About making random password generator in javascript.

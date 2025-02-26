@@ -23,3 +23,7 @@
 - **Today I learned:** 
   - Making a rock paper scissor game
   - Learn about LinkedList in java.
+
+### February 26, 2025
+- **Today I learned:** 
+  - Making a fizzbuzz program to survive math class.

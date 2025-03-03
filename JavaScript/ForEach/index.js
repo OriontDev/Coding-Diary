@@ -1,0 +1,52 @@
+
+//array.forEach(callback)
+//element, index, array already provided for functions
+
+let fruits = ["apple", "watermelon", "banana", "grapes"];
+
+fruits.forEach(upperCase);
+fruits.forEach(display);
+
+function display(element){
+    console.log(element);
+}
+
+function capitalize(element, index, array){
+    array[index] = element.charAt(0).toUpperCase() + element.slice(1);
+}
+
+function upperCase(element, index, array){
+    array[index] = element.toUpperCase();
+}
+
+function lowerCase(element, index, array){
+    array[index] = element.toLowerCase();
+}
+
+//=====================================================//
+
+let numbers = [1, 2, 3, 4, 5];
+
+numbers.forEach(cube);
+numbers.forEach(display);
+
+function double(element, index, array){
+    array[index] = element * 2;
+}
+
+function triple(element, index, array){
+    array[index] = element * 3;
+}
+
+function square(element, index, array){
+    array[index] = Math.pow(element, 2)
+}
+
+function cube(element, index, array){
+    array[index] = Math.pow(element, 3)
+}
+
+function display(element){
+    console.log(element);
+}
+

@@ -4,3 +4,4 @@
 ### March 3, 2025
 - **Today I learned:** 
   - The basic of callbacks.
+  - forEach method.

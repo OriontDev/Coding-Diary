@@ -33,31 +33,31 @@ section{
     font-size: 25px;
     margin: 0px;
 }
-
 .content-container p{
     margin: 0px;
+    min-width: 1020px;
 }
-
-
 .content-container hr{
     min-width: 1020px;
 }
-
 .content-container p{
     margin: 0;
 }
-
 .content-container #kontak{
     font-size: 30px;
 }
-
 .content-container h1{
     font-size: 40px;
     margin: 0;
     text-align: center;
 }
-
 .content-container{
     max-width: 1020px;
     overflow: hidden;
+}
+main{
+    max-width: 1200px;
+    margin: auto;
+    border: solid 1px black;
+    padding: 10px;
 }

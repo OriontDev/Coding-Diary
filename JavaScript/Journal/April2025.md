@@ -5,3 +5,4 @@
 - **Today I learned:** 
   - Function expression
   - Arrow Function
+  - Basic OOP of javaScript

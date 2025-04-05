@@ -23,6 +23,7 @@ Feel free to explore the repository and learn alongside me! :3
 ### JAVASCRIPT
 - [February 2025](./JavaScript/Journal/February2025.md)
 - [March 2025](./JavaScript/Journal/March2025.md)
+- [April 2025](./JavaScript/Journal/April2025.md)
 
 ### JAVA
 - [January 2025](./Java/Journal/January2025.md)

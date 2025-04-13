@@ -13,3 +13,7 @@
   - map array method
   - filter array method
   - reduce array method
+
+### March 13, 2025
+- **Today I learned:** 
+  - Getter and setter

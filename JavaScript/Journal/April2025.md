@@ -6,3 +6,9 @@
   - Function expression
   - Arrow Function
   - Basic OOP of javaScript
+
+### April 19, 2025
+- **Today I learned:** 
+  - Destructuring an array/object
+  - Array of object
+  - Nested object (object inside an object)

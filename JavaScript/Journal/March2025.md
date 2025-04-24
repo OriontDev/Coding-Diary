@@ -17,3 +17,10 @@
 ### March 13, 2025
 - **Today I learned:** 
   - Getter and setter
+
+### March 24, 2025
+- **Today I learned:** 
+  - Array of object
+  - Destructuring'
+  - Sorting
+  - Spread

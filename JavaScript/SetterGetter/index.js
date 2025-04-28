@@ -54,6 +54,8 @@ class Person{
     }
 }
 
+
+
 const person = new Person("Spongebob", "Squarepants", 12);
 
 console.log(person.firstName);

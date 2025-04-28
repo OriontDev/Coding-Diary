@@ -24,3 +24,9 @@
   - Destructuring'
   - Sorting
   - Spread
+
+### March 28, 2025
+- **Today I learned:** 
+  - Closure
+  - Dates
+  - Array Shuffle

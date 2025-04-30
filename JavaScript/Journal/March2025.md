@@ -30,3 +30,9 @@
   - Closure
   - Dates
   - Array Shuffle
+
+### March 30, 2025
+- **Today I learned:** 
+  - SetTimeout
+  - SetInterval
+  - Time Clock project

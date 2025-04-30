@@ -1,1 +1,1 @@
-const apikey = "childe";
+const apikey = "child";

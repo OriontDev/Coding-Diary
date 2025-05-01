@@ -12,3 +12,7 @@
   - Destructuring an array/object
   - Array of object
   - Nested object (object inside an object)
+
+### April 29, 2025
+- **Today I learned:** 
+  - ES6 Module

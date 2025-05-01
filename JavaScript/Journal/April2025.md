@@ -16,3 +16,4 @@
 ### April 29, 2025
 - **Today I learned:** 
   - ES6 Module
+  - Error Handling

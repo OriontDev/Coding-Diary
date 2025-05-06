@@ -18,6 +18,13 @@
             <button id="startBtn" onclick="start()">Start</button>
             <button id="stopBtn" onclick="stop()">Stop</button>
             <button id="resetBtn" onclick="reset()">Reset</button>
+            <div id="alarm-controls">
+                <input type="number" id="alarmHours" placeholder="HH" min="0" max="99">
+                <input type="number" id="alarmMinutes" placeholder="MM" min="0" max="59">
+                <input type="number" id="alarmSeconds" placeholder="SS" min="0" max="59">
+                <button onclick="setAlarm()" id="setAlarmBtn">Set Alarm</button>
+            </div>
+            <h3 id="alarmText">Alarm set for ..</h3>
         </div>
     </div>
 

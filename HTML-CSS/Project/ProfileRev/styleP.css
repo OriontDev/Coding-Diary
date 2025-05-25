@@ -234,8 +234,10 @@ body{
 }
 
 .project{
+    box-shadow: #2e5eb6 20px 20px 0px;
     max-width: 1200px;
     margin: auto;
+    margin-bottom: 20px;
     border-radius: 15px;
     border: solid rgb(24, 111, 193) 5px;
     background-color: rgba(0, 171, 251, 0.679);

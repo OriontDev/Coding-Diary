@@ -18,6 +18,15 @@
     z-index: -1;
 }
 
+article {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 .text2{
     width: 1000px;
     border: solid rgb(24, 111, 193) 4px;

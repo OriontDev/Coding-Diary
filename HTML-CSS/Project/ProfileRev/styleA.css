@@ -283,8 +283,61 @@ body{
 }
 
 .skillIcon:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
+
+
+.experience-icon:hover{
+    transform: scale(1.01);
+}
+
+.experience-icon{
+    width: 500px;
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+    transition: transform 0.2s ease;
+}
+
+.experience{
+    display: flex;
+    align-items: flex-start;
+    box-shadow: #2e5eb6 20px 20px 0px;
+    max-width: 1500px;
+    gap: 12px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: solid rgb(24, 111, 193) 5px;
+    background-color: rgba(0, 171, 251, 0.679);
+}
+
+
+.experience-text {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.experience-title h1 {
+    color: rgb(234, 246, 255);
+    text-shadow: 3px 3px 2px #72a1f8;
+    margin: 3px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5rem;
+}
+
+.experience-description p {
+    margin: 0;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px #2e5eb6;
+}
+
 
 @media screen and (max-width: 800px) {
     #topnama{

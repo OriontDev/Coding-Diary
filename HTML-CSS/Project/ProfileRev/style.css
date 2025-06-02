@@ -97,6 +97,22 @@ body{
     border-radius: 10px;
 }
 
+.picGalleryVer{
+    width: 250px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border: solid rgb(24, 111, 193) 6px;
+    border-radius: 10px;
+}
+
+.picGalleryLan{
+    width: 700px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border: solid rgb(24, 111, 193) 6px;
+    border-radius: 10px;
+}
+
 #aboutme{
     transition: transform 0.2s ease;
 }
@@ -214,5 +230,17 @@ body{
     #aboutme{
         transition: transform 0.2s ease;
         width: 300px;
+    }
+
+    .picGalleryVer{
+        width: 125px;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    .picGalleryLan{
+        width: 350px;
+        margin-top: 5px;
+        margin-right: 10px;
     }
 }
